@@ -1,0 +1,7 @@
+/*
+ * Our Lily58 has no rotary encoder: disable the optional one that the ZMK
+ * lily58 shield enables on the left half.
+ */
+&left_encoder {
+    status = "disabled";
+};
